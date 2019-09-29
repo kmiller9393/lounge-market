@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   return (
-    <Menu fluid id="menu" inverted attached>
+    <Menu fluid id="menu" inverted attached stackable>
       <Container text>
         <Link href="/">
           <Menu.Item header active={isActive('/')}>
