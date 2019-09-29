@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   return (
-    <Menu fluid id="menu" inverted>
+    <Menu fluid id="menu" inverted attached>
       <Container text>
         <Link href="/">
           <Menu.Item header active={isActive('/')}>
